@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Colors -->
+    <string name="colorPrimary">#1976D2</string>
+    <string name="colorAccent">#1565C0</string>
+    <string name="colorPrimaryDark">#1565C0</string>
+
+    <string name="app_name">Notify</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

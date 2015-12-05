@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/colorPrimary"
+             tools:context=".ui.fragments.TimelineFragment"
+                android:id="@+id/timelineLayout">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/timelineCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:dateTextAppearance="@style/CustomDateTextAppearance"
+        android:weekDayTextAppearance="@style/CustomWeekdayTextAppearance"/>
+
+</RelativeLayout>
